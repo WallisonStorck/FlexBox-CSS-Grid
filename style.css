@@ -100,7 +100,6 @@ img {
   margin: 0 auto;
 
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: 1fr 200px;
   gap: 20px;
 }
@@ -150,7 +149,6 @@ img {
 /* https://www.youtube.com/watch?v=x-4z_u8LcGc&t=1950s */
 @media screen and (max-width: 500px) {
   .grid1 {
-    /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: 1fr;
   }
 
