@@ -19,15 +19,20 @@ a {
 }
 
 header {
-  padding: 1rem;
+  padding: 0.3rem;
   background-color: #1d1e20;
 
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
 }
 
-.btn:hover {
+.logo {
+  max-width: 30px;
+}
+
+.btn-menu:hover {
   cursor: pointer;
 }
 
@@ -148,6 +153,14 @@ img {
 
 /* https://www.youtube.com/watch?v=x-4z_u8LcGc&t=1950s */
 @media screen and (max-width: 500px) {
+  .logo {
+    max-width: 50px;
+  }
+
+  nav {
+    margin-top: 0;
+  }
+
   .grid1 {
     grid-template-columns: 1fr;
   }
@@ -179,22 +192,19 @@ img {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
   header {
     flex-direction: column;
     align-items: center;
   }
 
-  nav {
-    margin-top: 1rem;
-  }
-
   ul {
     flex-direction: column;
     align-items: center;
+    font-size: 25px;
   }
 
-  .btn {
+  .btn-menu {
     padding: 0.5rem;
   }
 }
