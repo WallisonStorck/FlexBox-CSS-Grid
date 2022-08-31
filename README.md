@@ -1,7 +1,3 @@
-<!-- <h1 align="center">
-  <img alt="-" title="-" src="./--.png" width="220px" />
-</h1> -->
-
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>
@@ -9,13 +5,7 @@
 
 <br>
 
-<h2 align="center"><img alt="Logo Projeto" title="FlexBox-CSS-Grid" src="./PrintPage.png"></h2>
-
-<br>
-
-<!-- <p align="center">
-  <img alt="Landing Page" src="./--.png">
-</p> -->
+<h2 align="center"><img alt="Logo Projeto" title="FlexBox-CSS-Grid" src="./page.png"></h2>
 
 <br>
 
